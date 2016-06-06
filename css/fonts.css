@@ -1,0 +1,17 @@
+@font-face{ 
+	font-family: 'FeijoaWeb-Display';
+	src: url('../webfonts/FeijoaWeb-Display.eot');
+	src: url('../webfonts/FeijoaWeb-Display.eot?#iefix') format('embedded-opentype'),
+	     url('../webfonts/FeijoaWeb-Display.woff') format('woff'),
+	     url('../webfonts/FeijoaWeb-Display.ttf') format('truetype'),
+	     url('../webfonts/FeijoaWeb-Display.svg#webfont') format('svg');
+}
+
+@font-face{ 
+	font-family: 'FeijoaWeb-Medium';
+	src: url('../webfonts/FeijoaWeb-Medium.eot');
+	src: url('../webfonts/FeijoaWeb-Medium.eot?#iefix') format('embedded-opentype'),
+	     url('../webfonts/FeijoaWeb-Medium.woff') format('woff'),
+	     url('../webfonts/FeijoaWeb-Medium.ttf') format('truetype'),
+	     url('../webfonts/FeijoaWeb-Medium.svg#webfont') format('svg');
+}
