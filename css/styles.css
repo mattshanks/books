@@ -7,11 +7,6 @@ margin:0px !important;
 padding:0px;
 }
 
-.row{
-padding: 20px;
-}
-
-
 .content{
 margin-top:80px;
 margin-bottom:80px;
@@ -23,8 +18,18 @@ h2{
 	margin-bottom: 20px;
 }
 
+.row{
+margin:0px;
+padding: 20px;
+}
+
 p{
 font-size: 16px;
+margin-bottom: 20px;
+}
+
+i{
+	margin-right: 8px;
 }
 
 a.button{
@@ -38,6 +43,19 @@ a.button{
     border-radius: 3px;
     letter-spacing: 0.2em;
     font-size: 12px;
+}
+
+a.button:hover{
+	background: #f53838;
+}
+
+
+a {
+font-size: 16px;
+}
+
+a:hover{
+text-decoration:none;
 }
 
 
@@ -90,7 +108,17 @@ height: 100px;
 
 .availability{
 	background: #DFDEED;
-	text-align: center;
+    text-align: center;
+    padding-bottom: 0px;
+    font-size: 13px;
+    color: #707070;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    padding-top: 40px;
+}
+
+.availability .row{
+padding-top:40px;
 }
 
 .availability img{
@@ -129,12 +157,77 @@ height: 100px;
 background: #f2f6fa;
 }
 
+.printing .row{
+}
+
+.printing .spread{
+}
+
+.printing img{
+position: absolute;
+right: 0;
+width: 1024px;
+}
+
+.printing ul{
+margin-left:0px;
+margin-top: 20px;
+margin-bottom: 30px;
+padding:0px;
+list-style-type: none;
+}
+
+.printing ul li{
+font-size: 18px;
+margin:0px;
+padding: 0px;
+font-variant: small-caps;
+}
+
+.printing i{
+	margin-right: 8px;
+}
+
+
+@media (max-width: 768px) { 
+	.content{
+	margin:20px;
+	}
+	
+	.printing img{
+	width: 100%;
+	position:relative;
+	}
+ }
+ 
+ 
+ @media (max-width: 560px) { 
+	.back-button{
+	display:none;
+	}
+ }
+ 
+ 
+ 
+
+
+
 
 /* ------------------------ testimonial */
 
 .testimonials{
 background: #b5dae1;
 text-align:center;
+height:425px;
+}
+
+.testimonials .content{
+margin:0px;
+position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 
