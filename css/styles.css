@@ -7,8 +7,10 @@ margin:0px !important;
 padding:0px;
 }
 
-.container{
+.customcontainer{
 max-width: 1400px;
+padding: 0px;
+margin: 0px;
 }
 
 .content{
@@ -201,6 +203,22 @@ border:0px;
 	
 	.sketches{
 	padding: 50px 10px 50px 10px;
+	}
+	
+	.sketches .content{
+	margin: 60px 0 0 0;
+	}
+ }
+ 
+  @media (max-width: 320px) { 
+	.sketches #beforeafter{
+	border: 1px solid #EEE;
+	width:100%;
+	text-align:center;
+	}
+	
+	.sketches{
+	padding: 50px 0px 50px 0px;
 	}
 	
 	.sketches .content{
