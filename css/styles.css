@@ -7,6 +7,10 @@ margin:0px !important;
 padding:0px;
 }
 
+.container{
+max-width: 1400px;
+}
+
 .content{
 margin-top:80px;
 margin-bottom:80px;
