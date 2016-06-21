@@ -269,7 +269,7 @@ font-variant: small-caps;
 
 
 @media (max-width: 768px) { 
-	.printing .row{
+	.printing{
 	padding: 50px 10px 50px 10px;
 	}
 	
@@ -288,20 +288,16 @@ font-variant: small-caps;
 	.back-button{
 	display:none;
 	}
- }
- 
- @media (max-width: 320px) { 
-	.printing .row{
+	
+	.printing {
 	padding: 50px 0px 50px 0px;
 	}
 	
-	.content{
-	margin:20px 0 0 0;
-	}
-	
-	.printing img{
-	width: 100%;
-	position:relative;
+ }
+ 
+ @media (max-width: 320px) { 
+	.printing {
+	padding: 50px 0px 50px 0px;
 	}
  }
  
