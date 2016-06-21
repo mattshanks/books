@@ -290,6 +290,21 @@ font-variant: small-caps;
 	}
  }
  
+ @media (max-width: 320px) { 
+	.printing .row{
+	padding: 50px 0px 50px 0px;
+	}
+	
+	.content{
+	margin:20px 0 0 0;
+	}
+	
+	.printing img{
+	width: 100%;
+	position:relative;
+	}
+ }
+ 
  
  
 /* ------------------------ testimonial */
