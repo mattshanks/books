@@ -280,9 +280,10 @@ font-variant: small-caps;
 background: #b5dae1;
 text-align:center;
 height:425px;
-background: url("../images/bg-testimonial.jpg");
+/*background: url("../images/bg-testimonial.jpg");
 background-position: 50%;
 background-size: 1920px;
+*/
 display:table;
 width:100%;
 }
