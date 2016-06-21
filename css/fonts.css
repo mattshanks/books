@@ -15,3 +15,12 @@
 	     url('../webfonts/FeijoaWeb-Medium.ttf') format('truetype'),
 	     url('../webfonts/FeijoaWeb-Medium.svg#webfont') format('svg');
 }
+
+@font-face{ 
+	font-family: 'FeijoaWeb-MediumItalic';
+	src: url('../webfonts/FeijoaWeb-MediumItalic.eot');
+	src: url('../webfonts/FeijoaWeb-MediumItalic.eot?#iefix') format('embedded-opentype'),
+	     url('../webfonts/FeijoaWeb-MediumItalic.woff') format('woff'),
+	     url('../webfonts/FeijoaWeb-MediumItalic.ttf') format('truetype'),
+	     url('../webfonts/FeijoaWeb-MediumItalic.svg#webfont') format('svg');
+}
