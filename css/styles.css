@@ -145,7 +145,7 @@ font-family: 'FeijoaWeb-MediumItalic', serif;
     color: #707070;
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    padding-top: 40px;
+    padding-top: 50px;
 }
 
 .availability .row{
@@ -153,7 +153,8 @@ padding-top:40px;
 }
 
 .availability img{
-	width: 80%;
+	width: 100%;
+	margin-bottom:50px;
 }
 
 
