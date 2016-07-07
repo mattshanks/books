@@ -42,7 +42,6 @@ a.button{
 	display: inline-block;
 	border: 0px solid black;
 	padding: 12px 25px;
-	margin-bottom: 40px;
 	background: #e30000;
 	color: white;
 	text-transform: uppercase;
@@ -124,7 +123,7 @@ font-family: 'FeijoaWeb-MediumItalic', serif;
 }
 
 
- @media (max-width: 768px) { 
+ @media (max-width: 767px) { 
 	.banner{
 	text-align:center;
 	padding: 50px 0px 50px 0px;
@@ -154,17 +153,15 @@ padding-top:40px;
 }
 
 .availability .innercol{
-display:table;
 }
 
 .availability .logo{
- display:table-cell;
 }
 
 .availability img{
 	width: 100%;
-	margin-bottom:50px;
-	vertical-align:middle;
+	display:inline-block;
+	margin-bottom:25px;
 }
 
 
@@ -272,7 +269,7 @@ padding: 0px;
 font-variant: small-caps;
 }
 
-.printing i{
+.printing ul li i{
 	margin-right: 8px;
 	color: green;
 }
@@ -379,7 +376,7 @@ color: #FFF;
 }
 
 .author img{
-	border-radius:200px;
+	border-radius:50px;
 	width: 100px;
 	margin-bottom: 40px;
 	text-align:center;
