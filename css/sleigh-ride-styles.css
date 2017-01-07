@@ -1,0 +1,494 @@
+html{
+}
+
+body{
+font-family: 'FeijoaWeb-Medium', sans-serif;
+margin:0px !important;
+padding:0px;
+}
+
+.customcontainer{
+max-width: 1400px;
+padding: 0px;
+margin: 0 auto;
+}
+
+.content{
+margin-top:80px;
+margin-bottom:80px;
+}
+
+h2{
+	font-family: 'FeijoaWeb-Display', serif;
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+.row{
+margin:0px;
+padding: 20px;
+}
+
+p{
+font-size: 16px;
+margin-bottom: 20px;
+}
+
+i{
+	margin-right: 8px;
+}
+
+a.button{
+	display: inline-block;
+	border: 0px solid black;
+	padding: 12px 25px;
+	background: #e30000;
+	color: white;
+	text-transform: uppercase;
+    border-radius: 3px;
+    letter-spacing: 0.2em;
+    font-size: 12px;
+}
+
+a.button:hover{
+	background: #f53838;
+}
+
+
+a {
+font-size: 16px;
+}
+
+a:hover{
+text-decoration:none;
+}
+
+
+/* ------------------------ Header */
+
+.header{
+border-bottom: 1px solid #EEE;
+text-align:center;
+height: 100px;
+}
+
+.back-button{
+	border-right: 1px solid #EEE;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100px;
+    z-index: 100;
+    padding: 43px 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-size: 11px;
+}
+
+.back-button:hover{
+	background: #EEE;
+	text-decoration:none;
+}
+
+.header .back-button a{
+	
+	}
+	
+.logo img{
+	width: 250px;
+	margin: 0 auto;
+	}
+
+/* ------------------------ Banner */
+
+.banner{
+	padding: 40px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background: url("../images/sleigh-ride/sprinkles.png") bottom repeat-x;
+}
+
+.cover img{
+	border: 1px solid #EEE;
+}
+
+.banner .content{
+	margin:20px 0 0 0;
+}
+
+.banner h3{
+font-size: 16px;
+color: #707070;
+margin-bottom: 30px;
+font-family: 'FeijoaWeb-MediumItalic', serif;
+}
+
+
+ @media (max-width: 767px) { 
+	.banner{
+	text-align:center;
+	padding: 50px 0px 50px 0px;
+	}
+	.banner .content{
+	margin: 50px 0 0 0;
+	}
+ }
+
+
+/* ------------------------ Retailers */
+
+.availability{
+	background: #DFDEED;
+    text-align: center;
+    padding-bottom: 0px;
+    font-size: 13px;
+    color: #707070;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    padding-top: 50px;
+}
+
+.availability .row{
+padding-top:40px;
+
+}
+
+.availability .innercol{
+}
+
+.availability .logo{
+}
+
+.availability img{
+	width: 100%;
+	display:inline-block;
+	margin-bottom:25px;
+}
+
+
+/* ------------------------ sketches */
+
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 80px;
+	height: 0;
+	margin-top: 60px;
+	margin-right: 20px;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.videocaption{
+margin-top: 20px;
+font-size: 12px;
+color: #707070;
+}
+
+
+.sketches{
+	padding: 80px 80px;
+	border-bottom: 0px solid #EEE;
+}
+
+.sketches #beforeafter{
+border: 1px solid #EEE;
+width:80%;
+text-align:center;
+}
+
+
+.sketches .cover img{
+border:0px;
+}
+
+.pretitle{
+	text-transform: uppercase;
+    letter-spacing: 0.4em;
+    font-size: 12px;
+    color: #AAA;
+}
+
+@media (max-width: 1200px) { 
+	.sketches{
+	padding: 40px;
+	}
+	
+ }
+ 
+ @media (max-width: 768px) { 
+	.sketches #beforeafter{
+	border: 1px solid #EEE;
+	width:100%;
+	text-align:center;
+	}
+	
+	.sketches{
+	padding: 50px 10px 50px 10px;
+	}
+	
+	.sketches .content{
+	margin: 60px 0 0 0;
+	}
+ }
+ 
+  @media (max-width: 320px) { 
+	.sketches #beforeafter{
+	border: 1px solid #EEE;
+	width:100%;
+	text-align:center;
+	}
+	
+	.sketches{
+	padding: 50px 0px 50px 0px;
+	}
+	
+	.sketches .content{
+	margin: 60px 0 0 0;
+	}
+ }
+
+/* ------------------------ dbl-page-spread */
+
+.dbl-page-spread{
+	background: #b5dae1;
+	text-align:center;
+	/*
+	background: url("../images/sleigh-ride/icecream.jpeg");
+	background-position: 50%;
+	background-size: 100%;
+	*/
+	background: url("../images/sleigh-ride/sprinkles.png") repeat-x;
+	background-position: ;
+	display:table;
+	width:100%;
+	padding: 40px 0 60px 0;
+}
+
+.dbl-page-spread .twentytwenty-container{
+	width:75%;
+	margin: 0 auto;
+	box-shadow: 0px 0px 5px #888888;
+	margin-bottom: 40px;
+}
+
+.dbl-page-spread img{
+	margin:0px;
+	box-shadow: 0px 0px 5px #888888
+}
+
+
+
+
+/* ------------------------ printing */
+
+.printing{
+background: #ffe8ec;
+}
+
+.printing .row{
+border-top: 1px solid #EEE;
+}
+
+.printing .spread{
+}
+
+.printing img{
+position: absolute;
+right: 60px;
+width: 870px;
+}
+
+.printing ul{
+margin-left:30px;
+margin-top: 20px;
+margin-bottom: 30px;
+padding:0px;
+list-style-type: none;
+}
+
+.printing ul li{
+font-size: 18px;
+margin:0px;
+padding: 0px;
+font-variant: small-caps;
+}
+
+.printing ul li i{
+	margin-right: 8px;
+	color: #81d1e5;
+}
+
+
+@media (max-width: 768px) { 
+	.printing{
+	padding: 50px 10px 50px 10px;
+	}
+	
+	.content{
+	margin:20px 0 20px 0;
+	}
+	
+	.printing img{
+	width: 100%;
+	position:relative;
+	right: 0;
+	}
+ }
+ 
+ 
+ @media (max-width: 560px) { 
+	.back-button{
+	display:none;
+	}
+	
+	.printing {
+	padding: 50px 10px 50px 10px;
+	}
+	
+	.printing img{
+	width: 100%;
+	position:relative;
+	right:0;
+	}
+	
+ }
+ 
+ @media (max-width: 320px) { 
+	.printing {
+	padding: 50px 0px 50px 0px;
+	}
+	
+	.printing img{
+	width: 100%;
+	position:relative;
+	right: 0;
+	}
+ }
+ 
+ 
+/* ------------------------ comp */
+ 
+ .comp ol li{
+ font-size: 16px;
+ }
+ 
+ 
+ 
+/* ------------------------ testimonial */
+
+.testimonials{
+background: #b5dae1;
+text-align:center;
+height:425px;
+background: url("../images/sleigh-ride/xmas-pattern.jpg");
+background-position: 50%;
+display:table;
+width:100%;
+}
+
+.testimonials .inner{
+vertical-align:middle;
+
+}
+
+.testimonials .content{
+	box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 50em;
+	background:white;
+	padding: 6% 6% 6% 6%;
+}
+
+.testimonials .pretitle{
+color: red;
+}
+
+
+/* ------------------------ author */
+
+.author{
+	background: #ffe8ec;
+	padding: 60px 0;
+	display:table;
+	width:100%;
+}
+
+.author .pretitle{
+	color: #707070;
+}
+
+.author .content{
+	max-width:50em;
+	margin: 0 auto;
+	text-align:center;
+	margin-bottom:40px;
+	color:#333;
+}
+
+.author img{
+	border-radius:50px;
+	width: 100px;
+	margin-bottom: 40px;
+	text-align:center;
+}
+
+.author .cta{
+	margin-top:20px;
+}
+
+.author .pretitle{
+
+}
+
+
+/* ------------------------ mailchimp Styles */
+
+.subscribe{
+background:#81d1e5;
+color: #FFF;
+text-align:center;
+padding-bottom:80px;
+}
+
+.subscribe label{
+text-transform: uppercase;
+font-weight: normal;
+font-size: 12px;
+letter-spacing: 0.1em;
+display:block;
+margin: 20px 0;
+}
+
+input.email{
+width: 30em;
+padding: 10px;
+color: #000;
+font-size: 12px;
+border:none;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+}
+
+input.button{
+padding:10px;
+color: #FFF;
+font-size: 12px;
+letter-spacing: 0.1em;
+background:red;
+border:none;
+text-transform:uppercase;
+}
+
+
+
+
+
+
+
