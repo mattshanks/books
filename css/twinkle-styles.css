@@ -133,6 +133,13 @@ font-family: 'FeijoaWeb-MediumItalic', serif;
 	}
  }
 
+.pretitle {
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    font-size: 12px;
+    color: #AAA;
+}
+
 
 /* ------------------------ Retailers */
 
@@ -165,72 +172,27 @@ padding-top:40px;
 }
 
 
-/* ------------------------ sketches */
+/* ------------------------ dbl-page-spread */
 
-
-.sketches{
-	padding: 80px 80px;
-	background: url("../images/koala-bg.jpg") no-repeat right bottom;
-	background-size: 300px;
-	border-bottom: 1px solid #EEE;
-}
-
-.sketches #beforeafter{
-border: 1px solid #EEE;
-width:80%;
-text-align:center;
-}
-
-
-.sketches .cover img{
-border:0px;
-}
-
-.pretitle{
-	text-transform: uppercase;
-    letter-spacing: 0.4em;
-    font-size: 12px;
-    color: #AAA;
-}
-
-@media (max-width: 1200px) { 
-	.sketches{
-	padding: 40px;
-	}
-	
- }
- 
- @media (max-width: 768px) { 
-	.sketches #beforeafter{
-	border: 1px solid #EEE;
-	width:100%;
+.dbl-page-spread{
+	background: #FFF;
 	text-align:center;
-	}
-	
-	.sketches{
-	padding: 50px 10px 50px 10px;
-	}
-	
-	.sketches .content{
-	margin: 60px 0 0 0;
-	}
- }
- 
-  @media (max-width: 320px) { 
-	.sketches #beforeafter{
-	border: 1px solid #EEE;
+	display:table;
 	width:100%;
-	text-align:center;
-	}
-	
-	.sketches{
-	padding: 50px 0px 50px 0px;
-	}
-	
-	.sketches .content{
-	margin: 60px 0 0 0;
-	}
- }
+	padding: 40px 0 60px 0;
+}
+
+.dbl-page-spread .twentytwenty-container{
+	width:75%;
+	margin: 0 auto;
+	box-shadow: 0px 0px 5px #888888;
+	margin-bottom: 40px;
+}
+
+.dbl-page-spread img{
+	margin:0px;
+	box-shadow: 0px 0px 5px #888888
+}
 
 
 
@@ -333,14 +295,20 @@ font-variant: small-caps;
 /* ------------------------ testimonial */
 
 .testimonials{
-background: #b5dae1;
+background: #FFF;
 text-align:center;
 height:425px;
-background: url("../images/bg-testimonial.jpg");
+/* background: url("../images/twinkle/space-bg-2.jpg"); */
 background-position: 50%;
 background-size: 1920px;
 display:table;
 width:100%;
+border-bottom: 1px solid #EEE;
+}
+
+.testimonials .logo{
+width: 200px;
+margin-bottom:30px;
 }
 
 .testimonials .inner{
@@ -353,16 +321,14 @@ vertical-align:middle;
     max-width: 50em;
 }
 
-.testimonials .pretitle{
-color: #FFF;
-}
 
 
 /* ------------------------ author */
 
 .author{
-	background: #29496e;
+	background: url("../images/twinkle/space-bg.jpg");
 	padding: 60px 0;
+	position: 50% 50%;
 	display:table;
 	width:100%;
 	color:white;
